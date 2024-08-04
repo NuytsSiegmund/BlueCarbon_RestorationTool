@@ -12,6 +12,7 @@
 8. [Interpreting Results](#interpreting-results)
 9. [Troubleshooting](#troubleshooting)
 10. [Contributing](#contributing)
+11. [Citation](#citation)
 
 ## Introduction
 
@@ -102,9 +103,9 @@ All spatial data should be in the same coordinate system, preferably a projected
 3. **Select Wave Height Category**: Choose Very low (<0.4 m), Low (0.4 – 1 m), Moderate (1 – 1.5 m), High (1.5 – 2.25 m), or Very high (> 2.25 m) Significant wave height
 4. **Select Erodibility**: Choose Rapid accretion, Accretion, Stable, Erosion, or Rapid erosion
 5. **Select Substrate**: Choose Artificial, Hard rock, Soft rock, Soft sediment, or Sandy
-4. **Input data layers**: Select the required input layers from your project
-5. **Set output location**: Choose where to save the results
-6. **Run the tool**: Click "Run" and wait for the process to complete
+6. **Input data layers**: Select the required input layers from your project
+7. **Set output location**: Choose where to save the results
+8. **Run the tool**: Click "Run" and wait for the process to complete
 
 ## Interpreting Results
 
@@ -123,18 +124,12 @@ Additionally, the tool calculates the distance from each potential restoration s
 
 ## Contributing
 
-We welcome contributions to improve the BCE Restoration Tool. Please submit issues and pull requests through the GitHub repository.
+We welcome contributions to improve the BCE Restoration Tool. Please feel free to submit issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
 When contributing, please:
 - Follow the existing code style
 - Update the documentation if you make changes to the tool's functionality
 - Test your changes thoroughly before submitting a pull request
-
-## Contributing
-We welcome contributions to improve the BCE Restoration Tool. Please feel free to submit issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Citation
 If you use this tool in your research, please cite:
