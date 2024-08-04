@@ -18,20 +18,37 @@
 The Blue Carbon Ecosystem (BCE) Restoration Tool is a Geographic Information System (GIS)-based multi-criteria decision support tool designed to identify suitable areas for BCE restoration. It focuses on mangroves, saltmarshes, and seagrasses, integrating spatial data on current and historical BCE distribution, coastal geomorphology, hydrodynamics, and land tenure.
 
 ## Abstract From Paper
-Blue carbon ecosystems (BCEs), such as mangroves, saltmarshes, and seagrasses, are important nature-based solutions for climate change mitigation and adaptation but are threatened by degradation. Effective BCE restoration requires strategic planning and site selection to optimise outcomes. We developed a Geographic Information System (GIS)-based multi-criteria decision support tool to identify suitable areas for BCE restoration along the 2,512 km-long coastline of Victoria, Australia. High-resolution spatial data on BCE distribution, coastal geomorphology, hydrodynamics, and land tenure were integrated into a flexible spatial model that distinguishes between passive and active restoration suitability. The tool was applied to identify high-priority locations for mangrove, saltmarsh, and seagrass restoration across different scenarios. Results indicate substantial potential for BCE restoration in Victoria, with 33,253 ha of suitable area identified, mostly (>97%) on public land, which aligned with the selection criteria used in the tool. Restoration opportunities are concentrated in bays and estuaries where historical losses have been significant. The mapped outputs provide a decision-support framework for regional restoration planning, while the tool itself can be adapted to other geographies.
+Blue carbon ecosystems (BCEs), such as mangroves, saltmarshes, and seagrasses, are important nature-based
+solutions for climate change mitigation and adaptation but are threatened by degradation. Effective BCE
+restoration requires strategic planning and site selection to optimise outcomes. We developed a Geographic
+Information System (GIS)-based multi-criteria decision support tool to identify suitable areas for BCE restoration
+along the 2512 km-long coastline of Victoria, Australia. High-resolution spatial data on BCE distribution, coastal
+geomorphology, hydrodynamics, and land tenure were integrated into a flexible spatial model that distinguishes
+between passive and active restoration suitability. The tool was applied to identify high-priority locations for
+mangrove, saltmarsh, and seagrass restoration across different scenarios. Results indicate substantial potential
+for BCE restoration in Victoria, with 33,253 ha of suitable area identified, mostly (>97%) on public land, which
+aligned with the selection criteria used in the tool. Restoration opportunities are concentrated in bays and estuaries
+where historical losses have been significant. The mapped outputs provide a decision-support framework
+for regional restoration planning, while the tool itself can be adapted to other geographies. By integrating
+multiple spatial criteria and distinguishing between passive and active restoration, our approach offers a new
+method for targeting BCE restoration and informing resource allocation. The identified restoration potential will
+also require collaboration with coastal managers and communities, and consideration of socio-economic factors.
+With further refinements, such as incorporating multi-criteria decision analysis techniques, GIS-based tools can
+help catalyse strategic blue carbon investments and contribute to climate change mitigation and adaptation goals
+at different spatial scales. This study highlights the value of spatial identification for BCE restoration and provides
+a transferable framework for other regions.
 
 ## System Requirements
 
 - ArcGIS Pro 3.0.1 or later
 - Python 3.x (included with ArcGIS Pro)
-- Minimum 8GB RAM (16GB or more recommended for large datasets)
 - Storage space dependent on the size of your input datasets
 
 ## Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-repo/bce-restoration-tool.git
+   git clone https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool
    ```
 2. Open ArcGIS Pro and create a new project
 3. In the Catalog pane, right-click on Toolboxes and select "Add Toolbox"
@@ -43,31 +60,31 @@ The tool requires the following spatial data layers:
 
 1. **Current BCE Distribution**
    - Format: Vector (polygon)
-   - Resolution: 1-5 m
+   - Recommended Resolution: 1-5 m
    - Attributes: BCE type (mangrove, saltmarsh, seagrass)
 
-2. **Historic BCE Distribution** (for mangroves and saltmarshes)
+2. **Historic BCE Distribution** 
    - Format: Vector (polygon)
    - Attributes: BCE type
 
 3. **Coastal Erosion Sensitivity**
-   - Format: Vector (line or polygon)
-   - Resolution: 50 m segments
+   - Format: Vector (line)
+   - Recommended Resolution: 50 m segments
    - Attributes: Erosion sensitivity category
 
 4. **Shoreline Substrate Erodibility**
-   - Format: Vector (line or polygon)
-   - Resolution: 50 m segments
+   - Format: Vector (line)
+   - Recommended Resolution: 50 m segments
    - Attributes: Substrate erodibility category
 
 5. **Significant Wave Height**
-   - Format: Vector (line or polygon)
-   - Resolution: 50 m segments
+   - Format: Vector (line)
+   - Recommended Resolution: 50 m segments
    - Attributes: Wave height category
 
 6. **Land Tenure**
-   - Format: Vector (polygon)
-   - Resolution: Parcel-scale (~1:500)
+   - Format: Vector (Line or polygon)
+   - Recommended Resolution: Parcel-scale (~1:500)
    - Attributes: Land ownership category
 
 All spatial data should be in the same coordinate system, preferably a projected coordinate system appropriate for your study area.
@@ -81,12 +98,10 @@ All spatial data should be in the same coordinate system, preferably a projected
 ## Running the Tool
 
 1. **Select target BCE type**: Choose mangrove, saltmarsh, or seagrass
-2. **Set buffer distance**: Enter the distance to buffer existing BCE habitats (e.g., 100 m)
-3. **Choose restoration scenario**:
-   - Sheltered Passive Restoration
-   - Moderate Passive Restoration
-   - Sheltered Active Restoration
-   - Moderate Active Restoration
+2. **Set buffer distance**: Enter the distance to buffer existing BCE habitats (e.g., 250 m)
+3. **Select Wave Height Category**: Choose Very low (<0.4 m), Low (0.4 – 1 m), Moderate (1 – 1.5 m), High (1.5 – 2.25 m), or Very high (> 2.25 m) Significant wave height
+4. **Select Erodibility**: Choose Rapid accretion, Accretion, Stable, Erosion, or Rapid erosion
+5. **Select Substrate**: Choose Artificial, Hard rock, Soft rock, Soft sediment, or Sandy
 4. **Input data layers**: Select the required input layers from your project
 5. **Set output location**: Choose where to save the results
 6. **Run the tool**: Click "Run" and wait for the process to complete
@@ -104,8 +119,7 @@ Additionally, the tool calculates the distance from each potential restoration s
 
 - Ensure all input data are in the same coordinate system
 - Check that input layers have the required attributes
-- For large datasets, try running the tool on a subset of the data first
-- If the tool crashes, try increasing the available memory for ArcGIS Pro
+- Data examples are available for Victorian coastline in Australia
 
 ## Contributing
 
@@ -113,7 +127,6 @@ We welcome contributions to improve the BCE Restoration Tool. Please submit issu
 
 When contributing, please:
 - Follow the existing code style
-- Add comments to your code
 - Update the documentation if you make changes to the tool's functionality
 - Test your changes thoroughly before submitting a pull request
 
@@ -125,9 +138,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Citation
 If you use this tool in your research, please cite:
-[Include your paper's citation here once published]
 
-## Contact
-[Your Name] - [Your Email]
+Nuyts, S., Duarte de Paula Costa, M., Macreadie, P. I., & Trevathan-Tackett, S. M. (2024). A decision support tool to help identify blue carbon sites for restoration. Journal of Environmental Management, 367, 122006. https://doi.org/https://doi.org/10.1016/j.jenvman.2024.122006 
 
-Project Link: [https://github.com/yourusername/BCE-Restoration-Tool](https://github.com/yourusername/BCE-Restoration-Tool)
