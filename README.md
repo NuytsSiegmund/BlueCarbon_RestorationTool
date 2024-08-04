@@ -111,7 +111,7 @@ All spatial data should be in the same coordinate system, preferably a projected
 
 The tool generates two main outputs:
 
-1. **Potential restoration areas map**: Shows suitable areas symbolized by BCE type and restoration approach (passive/active)
+1. **Potential restoration areas map**: Shows suitable areas symbolised by chosen BCE type chosen coastal attributes
 2. **Summary table**: Lists total restorable area by BCE type, suitability class, and land tenure category
 
 Additionally, the tool calculates the distance from each potential restoration site to the nearest existing BCE habitats.
