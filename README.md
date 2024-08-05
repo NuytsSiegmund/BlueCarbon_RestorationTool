@@ -100,12 +100,13 @@ All spatial data should be in the same coordinate system, preferably a projected
 
 1. **Select target BCE type**: Choose mangrove, saltmarsh, or seagrass
 2. **Set buffer distance**: Enter the distance to buffer existing BCE habitats (e.g., 250 m)
-3. **Select Wave Height Category**: Choose Very low (<0.4 m), Low (0.4 – 1 m), Moderate (1 – 1.5 m), High (1.5 – 2.25 m), or Very high (> 2.25 m) Significant wave height
-4. **Select Erodibility**: Choose Rapid accretion, Accretion, Stable, Erosion, or Rapid erosion
-5. **Select Substrate**: Choose Artificial, Hard rock, Soft rock, Soft sediment, or Sandy
-6. **Input data layers**: Select the required input layers from your project
-7. **Set output location**: Choose where to save the results
-8. **Run the tool**: Click "Run" and wait for the process to complete
+3. **Take into account historical vegetation**: Choose if you want to focus specifically on areas that historically had vegetation
+4. **Select Wave Height Category**: Choose Very low (<0.4 m), Low (0.4 – 1 m), Moderate (1 – 1.5 m), High (1.5 – 2.25 m), or Very high (> 2.25 m) Significant wave height
+5. **Select Erodibility**: Choose Rapid accretion, Accretion, Stable, Erosion, or Rapid erosion
+6. **Select Substrate**: Choose Artificial, Hard rock, Soft rock, Soft sediment, or Sandy
+7. **Land Tenure**: Choose Private, Public, or both
+8. **Set output location**: Choose where to save the results
+9. **Run the tool**: Click "Run" and wait for the process to complete
 
 ## Interpreting Results
 
