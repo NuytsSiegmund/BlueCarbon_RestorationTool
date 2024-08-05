@@ -3,7 +3,7 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Abstarct From Paper](#abstract-from-paper)
+2. [Global Applicability](#Global-applicability)
 3. [System Requirements](#system-requirements)
 4. [Installation](#installation)
 5. [Data Requirements](#data-requirements)
@@ -16,28 +16,26 @@
 
 ## Introduction
 
-The Blue Carbon Ecosystem (BCE) Restoration Tool is a Geographic Information System (GIS)-based multi-criteria decision support tool designed to identify suitable areas for BCE restoration. It focuses on mangroves, saltmarshes, and seagrasses, integrating spatial data on current and historical BCE distribution, coastal geomorphology, hydrodynamics, and land tenure.
+The Blue Carbon Ecosystem (BCE) Restoration Tool is an innovative, Geographic Information System (GIS)-based multi-criteria decision support tool designed to identify suitable areas for BCE restoration. Developed to address the critical need for strategic planning in coastal ecosystem restoration, this tool focuses on three key blue carbon ecosystems: mangroves, saltmarshes, and seagrasses.
 
-## Abstract From Paper
-Blue carbon ecosystems (BCEs), such as mangroves, saltmarshes, and seagrasses, are important nature-based
-solutions for climate change mitigation and adaptation but are threatened by degradation. Effective BCE
-restoration requires strategic planning and site selection to optimise outcomes. We developed a Geographic
-Information System (GIS)-based multi-criteria decision support tool to identify suitable areas for BCE restoration
-along the 2512 km-long coastline of Victoria, Australia. High-resolution spatial data on BCE distribution, coastal
-geomorphology, hydrodynamics, and land tenure were integrated into a flexible spatial model that distinguishes
-between passive and active restoration suitability. The tool was applied to identify high-priority locations for
-mangrove, saltmarsh, and seagrass restoration across different scenarios. Results indicate substantial potential
-for BCE restoration in Victoria, with 33,253 ha of suitable area identified, mostly (>97%) on public land, which
-aligned with the selection criteria used in the tool. Restoration opportunities are concentrated in bays and estuaries
-where historical losses have been significant. The mapped outputs provide a decision-support framework
-for regional restoration planning, while the tool itself can be adapted to other geographies. By integrating
-multiple spatial criteria and distinguishing between passive and active restoration, our approach offers a new
-method for targeting BCE restoration and informing resource allocation. The identified restoration potential will
-also require collaboration with coastal managers and communities, and consideration of socio-economic factors.
-With further refinements, such as incorporating multi-criteria decision analysis techniques, GIS-based tools can
-help catalyse strategic blue carbon investments and contribute to climate change mitigation and adaptation goals
-at different spatial scales. This study highlights the value of spatial identification for BCE restoration and provides
-a transferable framework for other regions.
+By integrating high-resolution spatial data on current and historical BCE distribution, coastal geomorphology, hydrodynamics, and land tenure, the BCE Restoration Tool provides a comprehensive framework for assessing restoration potential. Its unique strength lies in its ability to distinguish between passive and active restoration suitability, offering nuanced insights for restoration planning and resource allocation.
+
+Initially developed and tested along the 2,512 km coastline of Victoria, Australia, this tool demonstrates significant potential for identifying restoration opportunities. In our case study, we identified 33,253 hectares of suitable area for BCE restoration, with the majority located on public land. These findings underscore the tool's capacity to inform large-scale restoration efforts and contribute to climate change mitigation and adaptation strategies.
+
+Importantly, while the tool was developed using data from Victoria, its methodology and framework are designed to be globally applicable. The data requirements and analysis approach can be adapted to other coastal regions worldwide, making this tool a valuable resource for restoration practitioners, environmental managers, and policymakers across different geographical contexts.
+
+We have developed this spatial tool to highlight areas of coastlines that have characteristics and history that may be suitable for different types of restoration. As with most large-scale spatial assessments, we strongly recommend ground-truthing and site-specific assessments to validate and refine potential restoration sites identified by the tool.
+
+## Global Applicability
+
+It's important to highlight that while the example data provided with this tool is specific to the Victorian coastline in Australia, the methodology and data structure can be applied globally. Researchers and practitioners from other regions can use this tool by substituting the Victorian data with equivalent datasets for their area of interest. This flexibility allows for the identification of blue carbon restoration opportunities in diverse coastal environments around the world.
+
+When adapting the tool to other regions:
+1. Ensure that you have similar data layers (current and historical BCE distribution, coastal geomorphology, hydrodynamics, and land tenure) for your area of interest.
+2. Adjust the classification schemes for variables like wave height, erosion sensitivity, and substrate types to match the characteristics of your local coastal environment.
+3. Consider local ecological, social, and economic factors that might influence restoration suitability in your region.
+
+By providing a transferable framework, this tool aims to support global efforts in blue carbon ecosystem restoration, contributing to climate change mitigation and coastal resilience worldwide.
 
 ## System Requirements
 
