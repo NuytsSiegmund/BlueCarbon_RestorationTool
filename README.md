@@ -26,7 +26,7 @@ Importantly, while the tool was developed using data from Victoria, its methodol
 
 We have developed this spatial tool to highlight areas of coastlines that have characteristics and history that may be suitable for different types of restoration. As with most large-scale spatial assessments, we strongly recommend ground-truthing and site-specific assessments to validate and refine potential restoration sites identified by the tool.
 
-## Global Applicability
+### Global Applicability
 
 It's important to highlight that while the example data provided with this tool is specific to the Victorian coastline in Australia, the methodology and data structure can be applied globally. Researchers and practitioners from other regions can use this tool by substituting the Victorian data with equivalent datasets for their area of interest. This flexibility allows for the identification of blue carbon restoration opportunities in diverse coastal environments around the world.
 
@@ -60,7 +60,7 @@ This option is ideal if you want to explore the tool with pre-loaded data or use
 
 This option is best if you want to use the tool with your own data from a different region.
 
-1. Go to the GitHub repository: [https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool](https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool](https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool/blob/main/BCE_RestorationTool.atbx)
+1. Go to the GitHub repository: https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool/blob/main/BCE_RestorationTool.atbx
 2. Download the toolbox file: `BCE_RestorationTool.atbx`
 3. Open ArcGIS Pro and create a new project or open an existing one
 4. In the Catalog pane, right-click on Toolboxes and select "Add Toolbox"
