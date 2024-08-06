@@ -7,8 +7,7 @@
 3. [System Requirements](#system-requirements)
 4. [Installation](#installation)
 5. [Data Requirements](#data-requirements)
-6. [Tool Setup](#tool-setup)
-7. [Running the Tool](#running-the-tool)
+6. [Running the Tool](#running-the-tool)
 8. [Interpreting Results](#interpreting-results)
 9. [Troubleshooting](#troubleshooting)
 10. [Contributing](#contributing)
@@ -111,12 +110,6 @@ The tool requires the following spatial data layers:
 
 All spatial data should be in the same coordinate system, preferably a projected coordinate system appropriate for your study area.
 
-## Tool Setup
-
-1. Open your ArcGIS Pro project
-2. In the Catalog pane, expand the BCE Restoration Tool toolbox
-3. Double-click on the BCE Restoration Tool to open it
-
 ## Running the Tool
 
 1. **Select target BCE type**: Choose mangrove, saltmarsh, or seagrass
@@ -141,6 +134,7 @@ Additionally, the tool calculates the distance from each potential restoration s
 ## Troubleshooting
 
 - Ensure all input data are in the same coordinate system
+- Ensure no <Null> data is in the data
 - Check that input layers have the required attributes
 - Data examples are available for Victorian coastline in Australia
 
