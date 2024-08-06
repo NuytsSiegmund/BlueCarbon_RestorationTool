@@ -45,13 +45,36 @@ By providing a transferable framework, this tool aims to support global efforts 
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool
-   ```
-2. Open ArcGIS Pro and create a new project
-3. In the Catalog pane, right-click on Toolboxes and select "Add Toolbox"
-4. Navigate to the cloned repository and select the BCE Restoration Tool toolbox
+The BCE Restoration Tool can be installed and used in two ways: as a complete package with example data for Victoria, Australia, or as a standalone toolbox for use with your own data.
+
+### Option 1: Complete Package for Victoria, Australia
+
+This option is ideal if you want to explore the tool with pre-loaded data or use the Victorian dataset as a template for your own project.
+
+1. Go to the GitHub repository: [https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool](https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool/tree/main/BCE_RestorationTool)
+2. Download the Package Project file: `BCE_RestorationTool.ppkx`
+3. Navigate to your downloaded file and double-click on `BCE_RestorationTool.ppkx`
+4. ArcGIS Pro will open with all necessary data and toolboxes pre-loaded
+
+### Option 2: Standalone Toolbox for Custom Data
+
+This option is best if you want to use the tool with your own data from a different region.
+
+1. Go to the GitHub repository: [https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool](https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool](https://github.com/NuytsSiegmund/BlueCarbon_RestorationTool/blob/main/BCE_RestorationTool.atbx)
+2. Download the toolbox file: `BCE_RestorationTool.atbx`
+3. Open ArcGIS Pro and create a new project or open an existing one
+4. In the Catalog pane, right-click on Toolboxes and select "Add Toolbox"
+5. Navigate to the downloaded `BCE_RestorationTool.atbx` file and select it
+
+### Post-Installation Steps
+
+After installation using either method:
+
+1. Ensure that all required data layers are present and properly formatted (see [Data Requirements](#data-requirements) section)
+2. If using your own data, make sure it's in the same coordinate system as specified in the tool
+3. Familiarize yourself with the tool interface and parameters before running analyses
+
+Remember, while the packaged project provides a ready-to-use example for Victoria, the methodology can be applied globally. When using your own data, you may need to adjust certain parameters or classification schemes to better suit your local coastal environment.
 
 ## Data Requirements
 
