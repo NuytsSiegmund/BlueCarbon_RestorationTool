@@ -3,15 +3,14 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Global Applicability](#Global-applicability)
-3. [System Requirements](#system-requirements)
-4. [Installation](#installation)
-5. [Data Requirements](#data-requirements)
-6. [Running the Tool](#running-the-tool)
-8. [Interpreting Results](#interpreting-results)
-9. [Troubleshooting](#troubleshooting)
-10. [Contributing](#contributing)
-11. [Citation](#citation)
+2. [System Requirements](#system-requirements)
+3. [Installation](#installation)
+4. [Data Requirements](#data-requirements)
+5. [Running the Tool](#running-the-tool)
+6. [Interpreting Results](#interpreting-results)
+7. [Troubleshooting](#troubleshooting)
+8. [Contributing](#contributing)
+9. [Citation](#citation)
 
 ## Introduction
 
