@@ -133,7 +133,7 @@ Additionally, the tool calculates the distance from each potential restoration s
 ## Troubleshooting
 
 - Ensure all input data are in the same coordinate system
-- Ensure no "<Null>" data is in the data
+- Ensure no "Null" data is in the data
 - Check that input layers have the required attributes
 - Data examples are available for Victorian coastline in Australia
 
